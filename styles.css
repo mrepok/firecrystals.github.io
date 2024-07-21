@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+header {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    height: 100vh;
+    background: url('hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    position: relative; /* Ensure positioning context */
+}
+
+.hero-content {
+    max-width: 600px;
+    position: relative; /* Ensure positioning context */
+    text-align: center; /* Center text */
+    padding-bottom: 60px; /* Added padding bottom */
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.7); /* Black box with 70% opacity */
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px; /* Reduced margin-top */
+    margin-bottom: 20px; /* Added margin-bottom */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.image-gallery img {
+    max-width: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.profile-img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.video-card {
+    background: #1e1e1e;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    color: #e0e0e0;
+    text-align: center;
+    max-width: 600px;
+}
+
+.video-card iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #1e1e1e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
